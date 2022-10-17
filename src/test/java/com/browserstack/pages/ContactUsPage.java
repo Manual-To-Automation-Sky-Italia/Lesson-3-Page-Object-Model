@@ -10,9 +10,7 @@ import org.openqa.selenium.support.ui.Wait;
 
 import java.time.Duration;
 
-public class ContactUsPage extends BaseClass {
-    //WebDriver driver;
-    Wait<WebDriver> fluentWait;
+public class ContactUsPage extends BasePage {
 
     By nameFieldLocator = By.name("name");
     By emailFieldLocator = By.name("email");
